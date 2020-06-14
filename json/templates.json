@@ -52,8 +52,8 @@
           ["future", "world of tomorrow", "coming era", "next ten years", "new era"]
         },
         "people": {
-          "firstNames": ["Alan", "James", "Bill", "Robert", "Katherine", "Giselle", "Catherine", "Catheryn"],
-          "lastNames": ["Barnabus", "Warnabus", "Harnabus"]
+          "firstNames": ["Alan", "James", "Bill", "Robert", "Katherine", "Giselle", "Catherine", "Catheryn", "Michael", "Tom", "Skip", "Franklin", "Frank"],
+          "lastNames": ["Barnabus", "Warnabus", "Harnabus", "Mossen", "Gillen", "Vadden"]
         }
       }
 }
