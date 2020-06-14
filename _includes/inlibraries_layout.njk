@@ -1,0 +1,20 @@
+---
+title: In Libraries!
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link href="/css/inlibraries.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.15/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nunjucks@3.2.1/browser/nunjucks.min.js"></script>    
+    <script src="/js/inlibraries.js"></script> 
+  </head>
+  <body>
+    {{ content | safe }}   
+  </body>
+</html>

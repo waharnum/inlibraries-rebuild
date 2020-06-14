@@ -1,0 +1,26 @@
+---
+layout: inlibraries_layout.njk
+---
+
+<div x-data="conferenceDetails()" x-init="loadTemplates()">
+    
+    <h1 class="text-6xl text-blue-600" x-text="[topic] + ' In Libraries'"></h1>
+    <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div class="p-4">
+            <h2 class="text-2xl">Confirmed Sessions</h2>
+            <ul class="list-disc list-inside p-2">
+                <template x-for="sessionTitle in sessionTitles" :key="sessionTitle">
+                    <li x-text="sessionTitle"></li>
+                </template>
+            </ul>
+        </div>
+        <div class="p-4">
+            <h2 class="text-2xl">Keynote Speakers</h2>
+            <ul class="list-disc list-inside p-2">
+                <template x-for="speaker in speakers" :key="speaker">
+                    <li x-text="speaker"></li>
+                </template>
+            </ul>        
+        </div>
+    </div>
+</div>

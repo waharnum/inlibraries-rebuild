@@ -1,0 +1,17 @@
+{
+  "name": "inlibraries-rebuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss build ./_css/styles.css -o ./css/inlibraries.css && npx eleventy",
+    "serve": "npx eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.4.6",
+    "@11ty/eleventy": "^0.11.0"
+  }
+}

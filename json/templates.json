@@ -1,0 +1,59 @@
+{
+    "sessionTitleTemplates":
+    [
+        "{{ madlibs.nouns.effective|random|title }} Library Advocacy Using {{ topic }}",
+        "Help! My {{ madlibs.concepts.typesOfStaff|random|title }} Staff Won't Accept {{ topic }}",
+        "Make Your Library More Like {{ madlibs.concepts.librariesCouldBeLike|random|title }} Using {{ topic }}",
+        "{{ topic}}: the Past, the {{madlibs.nouns.future|random|title }}, the Opportunities for Libraries!"
+      ],
+    "speakerTemplates":
+    [
+      "{{ madlibs.people.firstNames|random}} {{ madlibs.people.lastNames|random}}, {{ madlibs.concepts.importantTitlesGeneral|random}}",
+      "{{ madlibs.people.firstNames|random}} {{ madlibs.people.lastNames|random}}, {{ madlibs.concepts.importantTitlesAcademic|random}}"
+    ],
+    "madlibs":
+      { "concepts": {
+          "librariesCouldBeLike": [
+            "a Startup",
+            "Google",
+            "Amazon",
+            "Bookstores",
+            "a Fast Casual Restaurant"            
+          ],
+          "typesOfStaff": 
+          [
+            "Millenial",
+            "Burned-Out",
+            "Demoralized",
+            "Gen X",
+            "Radical",
+            "Conservative",
+            "Boomer",
+            "Zennial",
+            "Unionized",
+            "Change-Averse",
+            "New"
+          ],
+          "importantTitlesGeneral": ["Vice-President", "Director", "Head"],
+          "importantTitlesAcademic": ["Head","Dean","Associate University Librarian"]
+      },        
+        "nouns": {
+          "effective": 
+          [
+            "Potent",
+            "Effective",
+            "Successful",
+            "Winning",
+            "Compelling",
+            "Awesome",
+            "Powerful"
+          ],
+          "future": 
+          ["future", "world of tomorrow", "coming era", "next ten years", "new era"]
+        },
+        "people": {
+          "firstNames": ["Alan", "James", "Bill", "Robert", "Katherine", "Giselle", "Catherine", "Catheryn"],
+          "lastNames": ["Barnabus", "Warnabus", "Harnabus"]
+        }
+      }
+}
